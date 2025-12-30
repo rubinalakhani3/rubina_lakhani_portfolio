@@ -3,88 +3,379 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubina Naushad Lakhani | Senior Azure Data Engineer</title>
+    <title>Rubina Naushad Lakhani | Data Engineer</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">RNL</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#interests">Interests</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">✨ RNL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <section id="hero">
-        <div class="hero-content">
-            <img src="rubina-profile.jpg" alt="Rubina Naushad Lakhani" class="profile-img">
-            <h1>Rubina Naushad Lakhani</h1>
-            <p class="subtitle">Senior Azure Data Engineer</p>
-            <p class="summary">
-                Senior Azure Data Engineer with 9.5 years of total experience (5.5 years specialized) in architecting high-scale data systems. 
-                Expert in building end-to-end Python and Azure pipelines for batch and real-time processing using ADLS, Kafka, and Snowflake.
-            </p>
-            <div class="social-links">
-                <a href="mailto:rubinalakhani006@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://linkedin.com/in/rubinalakhani" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <div class="profile-img-wrapper">
+                            <img src="profile.jpg" alt="Rubina Naushad Lakhani" class="hero-profile-img mb-4">
+                            <div class="profile-glow"></div>
+                        </div>
+                        <h1 class="hero-title">Hey there! 👋 I'm <span class="highlight">Rubina Naushad Lakhani</span></h1>
+                        <h2 class="hero-subtitle">Data Engineer</h2>
+                        <p class="hero-description">
+                            With <strong>9.5 years</strong> of experience in architecting high-scale data systems. Expert in building end-to-end Python and Azure pipelines for batch and real-time processing using ADLS, Kafka, and Snowflake. Proven track record of leveraging ADF, Databricks, and SQL Database to deliver high-throughput, event-driven solutions for complex, multi-format datasets.
+                        </p>
+                        
+                        <div class="hero-buttons mt-4">
+                            <a href="#contact" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-paper-plane me-2"></i>Let's Connect
+                            </a>
+                            <a href="#experience" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-briefcase me-2"></i>View Work
+                            </a>
+                        </div>
+                        <div class="hero-location mt-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>Hyderabad, India
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-visual">
+                        <div class="data-visualization">
+                            <div class="floating-icon icon-1"><i class="fas fa-database"></i></div>
+                            <div class="floating-icon icon-2"><i class="fab fa-python"></i></div>
+                            <div class="floating-icon icon-3"><i class="fas fa-cloud"></i></div>
+                            <div class="floating-icon icon-4"><i class="fas fa-code"></i></div>
+                            <div class="floating-icon icon-5"><i class="fas fa-network-wired"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#experience"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center">💼 Work Experience</h2>
+            <div class="title-underline"></div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Senior Systems Engineer</h3>
+                            <span class="company-name">Chubb</span>
+                            <span class="date-badge">07/2024 - Present</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Architected end-to-end Python pipelines to automate the ingestion, decryption, and processing of <strong>350k+ documents</strong> from ADLS, integrating OCR and classification APIs to ensure 100% metadata accuracy.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Engineered scalable batch and event-driven workflows to handle high-volume historical datasets and real-time document streams, optimizing system throughput and reducing manual processing time.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Leveraged Snowflake and Kafka to manage complex table operations and build near real-time data streams, ensuring seamless synchronization between document classification and metadata storage.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Modified existing workflows in Informatica Powercenter and IICS to resolve data issues.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Senior Consultant</h3>
+                            <span class="company-name">Capgemini</span>
+                            <span class="date-badge">04/2022 - 07/2024</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Designed and developed complex data pipelines using Azure Data Factory to process and transfer data sets from various sources/formats including Azure SQL, JSON, REST API, CSV, XLSX, Cosmos NOSQL DB, and Parquet to data lake.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Developed complex data transformation logic using Scala, and performed data cleaning, data enrichment, and data validation using PySpark and SparkSQL through Databricks.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Experience in working with Delta Lake on Databricks platform, including configuring and optimizing Delta Lake tables.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Experience with Azure DevOps for continuous integration and deployment of ADF and Databricks code.</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>1-year experience</strong> in managing a team of 12-15 members as a technical lead, assisting in solving challenges and reviewing code before production deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Technology Analyst</h3>
+                            <span class="company-name">Infosys</span>
+                            <span class="date-badge">06/2016 - 04/2022</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Proficient in connecting to various data sources, including Azure Data Lake Storage, Azure Blob Storage, Azure SQL Database, API and CSV From Azure Databricks.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Created advanced data manipulation techniques using Python, and cleaned, enhanced and validated data using PySpark and SparkSQL.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Experience in creating and maintaining interactive dashboards and reports using Power BI.</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Worked as an Oracle Fusion Middleware developer with experience in Oracle Data Integrator, Oracle BI Publish and SQL.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <div class="job">
-            <h3>Senior Systems Engineer | Chubb</h3>
-            <span class="date">07/2024 - Present</span>
-            <ul>
-                <li>Architected end-to-end Python pipelines to automate ingestion, decryption, and processing of 350k+ documents from ADLS.</li>
-                <li>Engineered scalable batch and event-driven workflows for high-volume historical datasets and real-time streams.</li>
-                <li>Leveraged Snowflake and Kafka to manage complex table operations and build near real-time data streams.</li>
-            </ul>
-        </div>
-        <div class="job">
-            <h3>Senior Consultant | Capgemini</h3>
-            <span class="date">04/2022 - 07/2024</span>
-            <ul>
-                <li>Developed complex data systems utilizing Azure Data Factory, Databricks, and SQL Database.</li>
-                <li>Managed technical lead responsibilities for a team of 12-15 members, overseeing code reviews and production deployments.</li>
-            </ul>
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">🛠️ Skills & Technologies</h2>
+            <div class="title-underline"></div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-cloud skill-icon"></i>
+                        <h4>Databricks</h4>
+                        <p>Delta Lake optimization & Spark processing</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-snowflake skill-icon"></i>
+                        <h4>Snowflake</h4>
+                        <p>Data warehousing & analytics</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fab fa-python skill-icon"></i>
+                        <h4>PySpark</h4>
+                        <p>Data processing & transformations</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-project-diagram skill-icon"></i>
+                        <h4>Azure Data Factory</h4>
+                        <p>ETL pipelines & orchestration</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h4>SparkSQL</h4>
+                        <p>SQL-based data processing</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-table skill-icon"></i>
+                        <h4>Delta Lake</h4>
+                        <p>Lakehouse architecture</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4>Azure SQL</h4>
+                        <p>Database management</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="skill-card">
+                        <i class="fas fa-chart-bar skill-icon"></i>
+                        <h4>Power BI</h4>
+                        <p>Data visualization & dashboards</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <span>Azure Data Factory</span><span>Azure Databricks</span><span>Snowflake</span>
-            <span>Kafka</span><span>PySpark</span><span>Python</span><span>Azure SQL</span><span>Power BI</span>
+    <section id="certifications" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center">🎓 Certifications</h2>
+            <div class="title-underline"></div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <h4>Microsoft Certified: Azure Data Engineer Associate</h4>
+                        <p class="cert-id">DP-203</p>
+                        <span class="cert-date">11/2023 - 11/2025</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>Databricks Certified Data Engineer Associate</h4>
+                        <p class="cert-id">Professional Certification</p>
+                        <span class="cert-date">07/2024 - 07/2026</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="interests">
-        <h2>Interests & Creative Work</h2>
-        <p>Outside of data engineering, I am passionate about art and music. You can find my creative work here:</p>
-        <div class="interest-links">
-            <a href="https://www.instagram.com/art.by.rubina" target="_blank" class="btn">
-                <i class="fab fa-instagram"></i> Art by Rubina
-            </a>
-            <a href="https://www.instagram.com/rubie.rhythms" target="_blank" class="btn">
-                <i class="fab fa-instagram"></i> Rubie Rhythms (Insta)
-            </a>
-            <a href="https://www.youtube.com/@rubierhythms5731" target="_blank" class="btn">
-                <i class="fab fa-youtube"></i> Rubie Rhythms (YouTube)
-            </a>
+    <section id="achievements" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">🏆 Achievements</h2>
+            <div class="title-underline"></div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="achievement-card">
+                        <i class="fas fa-chalkboard-teacher achievement-icon"></i>
+                        <h4>Databricks Teaching Assistant</h4>
+                        <p class="achievement-desc">Assisted the Databricks instructor in handling a cohort of 1200-1300 members by answering queries posted by the attendees on the Databricks Data Engineer Associate course.</p>
+                        <span class="achievement-date">05/2024</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievement-card">
+                        <i class="fas fa-trophy achievement-icon"></i>
+                        <h4>XtraMile Certificate</h4>
+                        <p class="achievement-desc">For outstanding performance and going the extra mile.</p>
+                        <span class="achievement-date">06/2022</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievement-card">
+                        <i class="fas fa-star achievement-icon"></i>
+                        <h4>Certificate of Excellence: Delivery Ninja</h4>
+                        <p class="achievement-desc">For consistent performance and outstanding commitment to work.</p>
+                        <span class="achievement-date">01/2022</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Rubina Naushad Lakhani | rubinalakhani.in</p>
+    <section id="education" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center">📚 Education</h2>
+            <div class="title-underline"></div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8">
+                    <div class="education-card">
+                        <i class="fas fa-graduation-cap education-icon"></i>
+                        <h3>Bachelor of Engineering in Information Technology</h3>
+                        <h4 class="institution-name">Muffakham Jah College of Engineering and Technology</h4>
+                        <span class="education-date">2012 - 2016</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">🎨 Interests & Creative Work</h2>
+            <div class="title-underline"></div>
+            <p class="lead mb-5">When I'm not architecting data pipelines, you'll find me creating art and making music! 🎵✨</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/art.by.rubin" target="_blank" class="text-decoration-none">
+                        <div class="interest-card">
+                            <div class="interest-icon-wrapper">
+                                <i class="fab fa-instagram interest-icon"></i>
+                            </div>
+                            <h4>Art by Rubina</h4>
+                            <p>Check out my artwork on Instagram</p>
+                            <div class="interest-arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/rubie.rhythms" target="_blank" class="text-decoration-none">
+                        <div class="interest-card">
+                            <div class="interest-icon-wrapper">
+                                <i class="fab fa-instagram interest-icon"></i>
+                            </div>
+                            <h4>Rubie Rhythms</h4>
+                            <p>Follow my musical journey on Instagram</p>
+                            <div class="interest-arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.youtube.com/@rubierhythms5731" target="_blank" class="text-decoration-none">
+                        <div class="interest-card">
+                            <div class="interest-icon-wrapper">
+                                <i class="fab fa-youtube interest-icon"></i>
+                            </div>
+                            <h4>Rubie Rhythms</h4>
+                            <p>Watch my music videos on YouTube</p>
+                            <div class="interest-arrow">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 section-bg">
+        <div class="container text-center">
+            <h2 class="section-title text-white">💬 Get In Touch</h2>
+            <div class="title-underline"></div>
+            <p class="lead text-white mb-5">Let's connect and build something amazing together!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <a href="mailto:rubina.lakhani3@gmail.com" class="contact-link">rubina.lakhani3@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <a href="https://linkedin.com/in/rubinalakhani" target="_blank" class="contact-link">linkedin.com/in/rubinalakhani</a>
+                </div>
+            </div>
+            <div class="social-links mt-5">
+                <a href="mailto:rubina.lakhani3@gmail.com" class="social-link" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/rubinalakhani" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/art.by.rubin" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.instagram.com/rubie.rhythms" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@rubierhythms5731" class="social-link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center bg-dark text-secondary">
+        <div class="container">
+            <p class="mb-2">&copy; 2026 Rubina Naushad Lakhani</p>
+            <p class="small">Built with <i class="fas fa-heart text-danger"></i> and a passion for data</p>
+        </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
